@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Rolling Love';
+    src: url('fonts/Rolling Love.ttf');
+}
+
+body {
+    background-color: #DCADF9;
+}
+
+header {
+    text-align: center;
+    font-family:'Rolling Love';
+    font-size: 3em;
+    color: #9E34E0;
+}
+
+main {
+    text-align: center;
+    font-family: 'Rolling Love';
+    font-size: 30px;
+    color: #9E34E0;
+}
+footer {
+    text-align: center;
+    color: #9E34E0;;
+    font-family: 'Rolling Love';
+    font-size: 20px;
+}
+a {
+    color: #9E34E0;
+}
+img {
+    width: 200px;
+    height: 200px;
+    animation: fadeIn 2s linear;
+    border-radius: 10px;
+    
+}
+
+@keyframes fadeIn{
+    from {opacity:0}
+    to {opacity:1}
+}
+.pag02 {
+    font-size: 1em;
+}
+div.fotos1 {
+    display: flex;
+    border-radius: 10px;
+}
