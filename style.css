@@ -50,3 +50,6 @@ div.fotos1 {
     display: flex;
     border-radius: 10px;
 }
+article {
+    text-align: center;
+}
